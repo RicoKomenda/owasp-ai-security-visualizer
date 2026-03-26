@@ -1,0 +1,438 @@
+{
+  "name": "OWASP AI Security Landscape",
+  "description": "A comprehensive overview of OWASP resources for AI and machine learning security.",
+  "children": [
+    {
+      "name": "OWASP Generative AI",
+      "description": "The OWASP GenAI Security Project — a global community delivering peer-reviewed guidance on securing LLMs, generative AI, and agentic systems across multiple focused initiatives.",
+      "url": "https://genai.owasp.org/",
+      "type": "umbrella",
+      "children": [
+        {
+          "name": "Agentic Security Initiative",
+          "description": "Focused on the unique security challenges of autonomous AI and agentic systems that plan, act, and make decisions across complex workflows.",
+          "url": "https://genai.owasp.org/initiatives/agentic-security-initiative/",
+          "type": "sub-umbrella",
+          "children": [
+            {
+              "title": "Top 10 for Agentic Applications 2026",
+              "description": "A globally peer-reviewed framework identifying the most critical security risks for autonomous and agentic AI systems, developed with 100+ industry experts including NIST and European Commission representatives.",
+              "url": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+              "type": "guide"
+            },
+            {
+              "title": "Agentic AI Threats and Mitigations",
+              "description": "A threat-model-based reference of emerging agentic threats and mitigations — the first in a series from the Agentic Security Initiative covering autonomous AI risks.",
+              "url": "https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/",
+              "type": "guide"
+            },
+            {
+              "title": "Securing Agentic Applications Guide 1.0",
+              "description": "Practical, actionable guidance for designing, developing, and deploying secure LLM-powered agentic applications — complements the Threats and Mitigations taxonomy with concrete technical recommendations.",
+              "url": "https://genai.owasp.org/resource/securing-agentic-applications-guide-1-0/",
+              "type": "guide"
+            },
+            {
+              "title": "AI Security Solutions Landscape for Agentic AI Q2 2026",
+              "description": "Quarterly peer-reviewed map of the agentic AI security vendor ecosystem, covering the full DevOps-SecOps intersection and mapping solutions to agentic threats and mitigations.",
+              "url": "https://genai.owasp.org/resource/ai-security-solutions-landscape-for-agentic-ai-q2-2026/",
+              "type": "guide"
+            }
+          ]
+        },
+        {
+          "name": "GenAI Red Teaming Initiative",
+          "description": "Establishing standardized AI red teaming methodologies, benchmarks, and evaluation frameworks for LLMs — addressing security vulnerabilities, bias, and user trust.",
+          "url": "https://genai.owasp.org/initiatives/genai-red-teaming-initiative/",
+          "type": "sub-umbrella",
+          "children": [
+            {
+              "title": "GenAI Red Teaming Guide",
+              "description": "Comprehensive strategies for identifying and mitigating security risks in AI-driven systems through red teaming, covering model evaluation, implementation testing, infrastructure assessment, and runtime behavior analysis.",
+              "url": "https://genai.owasp.org/resource/genai-red-teaming-guide/",
+              "type": "guide"
+            },
+            {
+              "title": "Vendor Evaluation Criteria for AI Red Teaming",
+              "description": "Practical guide for organizations assessing vendors offering AI red teaming services or automated testing tools — covering green flags, red flags, threat models, evaluation rigor, tooling quality, and governance considerations.",
+              "url": "https://genai.owasp.org/resource/owasp-vendor-evaluation-criteria-for-ai-red-teaming-providers-tooling-v1-0/",
+              "type": "guide"
+            }
+          ]
+        },
+        {
+          "name": "Secure AI Adoption and Governance",
+          "description": "Forming a Center of Excellence to enhance security frameworks, governance policies, and cross-departmental collaboration for safe and ethical LLM adoption.",
+          "url": "https://genai.owasp.org/initiatives/secure-ai-adoption-governance/",
+          "type": "sub-umbrella",
+          "children": [
+            {
+              "title": "LLM Applications Cybersecurity and Governance Checklist",
+              "description": "Practical checklist for leaders across executive, tech, cybersecurity, compliance, and legal domains — covering governance, risk, and compliance for LLM deployment.",
+              "url": "https://genai.owasp.org/resource/llm-applications-cybersecurity-and-governance-checklist-english/",
+              "type": "guide"
+            },
+            {
+              "title": "Threat Defense COMPASS",
+              "description": "A spreadsheet-based AI threat resilience strategy dashboard that consolidates AI threats, vulnerabilities, defenses, and mitigations to guide rapid threat prioritization and strategic decision-making.",
+              "url": "https://genai.owasp.org/resource/owasp-genai-security-project-threat-defense-compass-1-0/",
+              "type": "tool"
+            },
+            {
+              "title": "GenAI Security Solutions Reference Guide",
+              "description": "Vendor-agnostic resource mapping identified LLM and agentic AI risks to practical open-source and commercial security solutions across planning, data handling, deployment, and monitoring stages.",
+              "url": "https://genai.owasp.org/resource/owasp-genai-security-project-solutions-reference-guide-q2_q325/",
+              "type": "guide"
+            }
+          ]
+        },
+        {
+          "name": "LLM and GenAI Resources",
+          "description": "Flagship resources from the OWASP GenAI Security Project covering the LLM Top 10, supply chain security, and AI security tooling.",
+          "url": "https://genai.owasp.org/resources/",
+          "type": "sub-umbrella",
+          "children": [
+            {
+              "title": "Top 10 for LLM Applications 2025",
+              "description": "The most critical security risks for applications built on large language models — from prompt injection to model theft — the industry-leading reference for LLM security.",
+              "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+              "type": "guide"
+            },
+            {
+              "title": "AI Security Solutions Landscape (LLM)",
+              "description": "Vendor-agnostic overview of the security tooling ecosystem for LLM and generative AI applications across the full model lifecycle.",
+              "url": "https://genai.owasp.org/resource/llm-and-generative-ai-security-solutions-landscape/",
+              "type": "tool"
+            },
+            {
+              "title": "AIBOM Generator",
+              "description": "Open-source tool for generating AI Bills of Materials (AIBOMs) to enhance AI supply chain transparency, traceability, and security.",
+              "url": "https://genai.owasp.org/resources/",
+              "type": "tool"
+            },
+            {
+              "title": "Practical Guide for Secure MCP Server Development",
+              "description": "Actionable guidance for securing Model Context Protocol servers — the critical connection point between AI assistants and external tools, APIs, and data sources.",
+              "url": "https://genai.owasp.org/resource/a-practical-guide-for-secure-mcp-server-development/",
+              "type": "guide"
+            },
+            {
+              "title": "Cheat Sheet: Securely Using Third-Party MCP Servers",
+              "description": "Security framework for safely deploying external MCP servers, covering tool poisoning, prompt injection, authentication, authorization, and least-privilege governance workflows.",
+              "url": "https://genai.owasp.org/resource/cheatsheet-a-practical-guide-for-securely-using-third-party-mcp-servers-1-0/",
+              "type": "cheat sheet"
+            }
+          ]
+        },
+        {
+          "name": "AI Data Security Initiative",
+          "description": "Focused on the unique data security challenges introduced by generative AI — covering training data, inference pipelines, RAG systems, and data governance for LLM deployments.",
+          "url": "https://genai.owasp.org/resources/?e-filter-3b7adda-initiative_name=ai-data-security",
+          "type": "sub-umbrella",
+          "children": [
+            {
+              "title": "GenAI Data Security Risks and Mitigations 2026",
+              "description": "Forward-looking analysis of 21 distinct data security risk categories (DSGAI01-DSGAI21) for LLMs and agentic AI, covering attack scenarios, real-world CVEs, and tiered mitigations for the AI data layer.",
+              "url": "https://genai.owasp.org/resource/owasp-genai-data-security-risks-mitigations-2026/",
+              "type": "guide"
+            },
+            {
+              "title": "LLM and GenAI Data Security Best Practices",
+              "description": "Comprehensive best practices addressing data security challenges in LLM deployments, covering breaches of sensitive information and data protection regulation compliance.",
+              "url": "https://genai.owasp.org/resource/llm-and-gen-ai-data-security-best-practices/",
+              "type": "guide"
+            }
+          ]
+        },
+        {
+          "name": "AI Threat Intelligence Initiative",
+          "description": "Researching how LLMs are exploited in offensive cyber operations, including exploit generation capabilities, deepfake threats, and AI-assisted attack detection.",
+          "url": "https://genai.owasp.org/initiatives/ai-threat-intelligence-initiative/",
+          "type": "sub-umbrella",
+          "children": [
+            {
+              "title": "Guide for Preparing and Responding to Deepfake Events",
+              "description": "Resilience-focused guidance for defending against deepfake-enhanced social engineering — emphasizing process adherence, strong financial controls, and a culture of verification over detection technology.",
+              "url": "https://genai.owasp.org/resource/guide-for-preparing-and-responding-to-deepfake-events/",
+              "type": "guide"
+            },
+            {
+              "title": "Securing and Scrutinizing LLMs in Exploit Generation",
+              "description": "Research evaluating the real-world offensive capabilities of LLMs such as GPT-4o, Claude, and DeepSeek for generating day-one vulnerability exploits and assessing detection capabilities.",
+              "url": "https://genai.owasp.org/initiatives/ai-threat-intelligence-initiative/",
+              "type": "guide"
+            },
+            {
+              "title": "GenAI Incident Response Guide 1.0",
+              "description": "Guidelines and best practices for responding to security incidents involving GenAI applications, covering attacks on AI systems, supply chains, and third-party model providers — aligned with the NIST IR lifecycle.",
+              "url": "https://genai.owasp.org/resource/genai-incident-response-guide-1-0/",
+              "type": "guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OWASP AI Exchange",
+      "description": "OWASP Flagship project providing an open, comprehensive knowledge base for AI security — covering threats, controls, testing, and privacy across the full AI lifecycle.",
+      "url": "https://owaspai.org/",
+      "type": "umbrella",
+      "children": [
+        {
+          "title": "AI Security Overview",
+          "description": "Foundational material covering the AI threat landscape, control frameworks, risk analysis methodologies, governance essentials, and organizational security structures.",
+          "url": "https://owaspai.org/docs/ai_security_overview/",
+          "type": "guide"
+        },
+        {
+          "title": "General Controls",
+          "description": "Controls every organisation should have in place — covering governance frameworks, data limitation strategies, and mechanisms for limiting unwanted AI behaviors.",
+          "url": "https://owaspai.org/docs/1_general_controls/",
+          "type": "standard"
+        },
+        {
+          "title": "Threats Through Use (Input Threats)",
+          "description": "Guidance on adversarial attacks through crafted inputs: evasion, prompt injection, data disclosure, model extraction, resource exhaustion, and alignment risks.",
+          "url": "https://owaspai.org/docs/2_threats_through_use/",
+          "type": "guide"
+        },
+        {
+          "title": "Development-Time Threats and Controls",
+          "description": "Attacks targeting the AI development environment and supply chain — including model poisoning, development data leaks, and supply chain compromise prevention.",
+          "url": "https://owaspai.org/docs/3_development_time_threats/",
+          "type": "guide"
+        },
+        {
+          "title": "Runtime Application Security Threats",
+          "description": "Operational security concerns including runtime model poisoning, direct model leakage, output injection, and manipulation of augmentation data in production.",
+          "url": "https://owaspai.org/docs/4_runtime_application_security_threats/",
+          "type": "guide"
+        },
+        {
+          "title": "AI Security Testing",
+          "description": "Red-teaming methodologies, vulnerability simulation approaches, and open-source tool recommendations for security testing both generative and predictive AI systems.",
+          "url": "https://owaspai.org/docs/5_testing/",
+          "type": "guide"
+        },
+        {
+          "title": "AI Privacy",
+          "description": "Privacy responsibilities across AI systems — use limitation, fairness, data minimization, privacy rights, consent, model-based privacy attacks, and transparency requirements.",
+          "url": "https://owaspai.org/docs/6_privacy/",
+          "type": "guide"
+        }
+      ]
+    },
+    {
+      "name": "OWASP AISVS",
+      "description": "The AI Security Verification Standard — a framework of security requirements for designing, building, and testing AI/ML systems across 14 control categories.",
+      "url": "https://github.com/OWASP/AISVS",
+      "type": "umbrella",
+      "children": [
+        {
+          "title": "C1: Training Data Integrity and Traceability",
+          "description": "Training data must be sourced, handled, and maintained to preserve origin traceability, integrity, and quality — guarding against tampering, poisoning, and corruption.",
+          "url": "https://github.com/OWASP/AISVS/blob/main/1.0/en/0x10-C01-Training-Data-Integrity-and-Traceability.md",
+          "type": "standard"
+        },
+        {
+          "title": "C2: User Input Validation",
+          "description": "Robust validation of user input as a first-line defense against prompt injection, jailbreaks, and context-window exploitation in AI systems.",
+          "url": "https://github.com/OWASP/AISVS/blob/main/1.0/en/0x10-C02-User-Input-Validation.md",
+          "type": "standard"
+        },
+        {
+          "title": "C3: Model Lifecycle Management",
+          "description": "Change control processes preventing unauthorized or unsafe model modifications from reaching production, covering the full lifecycle from development to decommissioning.",
+          "url": "https://github.com/OWASP/AISVS/blob/main/1.0/en/0x10-C03-Model-Lifecycle-Management.md",
+          "type": "standard"
+        },
+        {
+          "title": "C4: Infrastructure and Deployment Security",
+          "description": "Hardening AI infrastructure against privilege escalation, supply chain tampering, and lateral movement through secure configuration, runtime isolation, and trusted deployment pipelines.",
+          "url": "https://github.com/OWASP/AISVS/blob/main/1.0/en/0x10-C04-Infrastructure.md",
+          "type": "standard"
+        },
+        {
+          "title": "C5: Access Control and Identity",
+          "description": "Robust identity management and context-aware authorization under zero-trust principles, ensuring humans, services, and agents operate only within explicitly granted scopes.",
+          "url": "https://github.com/OWASP/AISVS/blob/main/1.0/en/0x10-C05-Access-Control-and-Identity.md",
+          "type": "standard"
+        },
+        {
+          "title": "C6: Supply Chain Security",
+          "description": "End-to-end traceability, vulnerability management, and monitoring to protect against backdoors and exploitable code in third-party models, frameworks, and datasets.",
+          "url": "https://github.com/OWASP/AISVS/blob/main/1.0/en/0x10-C06-Supply-Chain.md",
+          "type": "standard"
+        },
+        {
+          "title": "C7: Model Behavior and Output Control",
+          "description": "Technical constraints, validation, and monitoring of model outputs so unsafe, malformed, or high-risk responses cannot reach users or downstream systems.",
+          "url": "https://github.com/OWASP/AISVS/blob/main/1.0/en/0x10-C07-Model-Behavior.md",
+          "type": "standard"
+        },
+        {
+          "title": "C8: Memory, Embeddings and Vector DB Security",
+          "description": "Hardening of RAG memory pipelines and vector databases against embedding inversion, membership inference, cross-tenant leakage, and data exfiltration.",
+          "url": "https://github.com/OWASP/AISVS/blob/main/1.0/en/0x10-C08-Memory-Embeddings-and-Vector-Database.md",
+          "type": "standard"
+        },
+        {
+          "title": "C9: Orchestration and Agentic Action Security",
+          "description": "Ensuring autonomous and multi-agent systems execute only authorized, intended, and bounded actions — preventing tool misuse, privilege escalation, and uncontrolled recursion.",
+          "url": "https://github.com/OWASP/AISVS/blob/main/1.0/en/0x10-C09-Orchestration-and-Agentic-Action.md",
+          "type": "standard"
+        },
+        {
+          "title": "C10: MCP Security",
+          "description": "Secure discovery, authentication, authorization, and transport for Model Context Protocol integrations — preventing context confusion, unauthorized tool invocation, and cross-tenant data exposure.",
+          "url": "https://github.com/OWASP/AISVS/blob/main/1.0/en/0x10-C10-MCP-Security.md",
+          "type": "standard"
+        },
+        {
+          "title": "C11: Adversarial Robustness",
+          "description": "Keeping AI systems reliable and abuse-resistant against evasion, inference, extraction, and poisoning attacks through alignment testing, adversarial hardening, and model theft deterrence.",
+          "url": "https://github.com/OWASP/AISVS/blob/main/1.0/en/0x10-C11-Adversarial-Robustness.md",
+          "type": "standard"
+        },
+        {
+          "title": "C12: Privacy Protection",
+          "description": "Rigorous privacy assurances across the AI lifecycle — collection, training, inference, and incident response — with minimum necessary scope, consent, and provable erasure.",
+          "url": "https://github.com/OWASP/AISVS/blob/main/1.0/en/0x10-C12-Privacy.md",
+          "type": "standard"
+        },
+        {
+          "title": "C13: Monitoring, Logging and Anomaly Detection",
+          "description": "Real-time and forensic visibility into what the model and AI components see, do, and return — enabling threat detection, triage, and learning from incidents.",
+          "url": "https://github.com/OWASP/AISVS/blob/main/1.0/en/0x10-C13-Monitoring-and-Logging.md",
+          "type": "standard"
+        },
+        {
+          "title": "C14: Human Oversight and Governance",
+          "description": "Maintaining human oversight and clear accountability chains in AI systems, ensuring explainability, transparency, and ethical stewardship throughout the AI lifecycle.",
+          "url": "https://github.com/OWASP/AISVS/blob/main/1.0/en/0x10-C14-Human-Oversight.md",
+          "type": "standard"
+        }
+      ]
+    },
+    {
+      "name": "OWASP Cheat Sheet Series",
+      "description": "AI-specific cheat sheets from the OWASP Cheat Sheet Series covering LLM prompt injection, agent security, and secure AI operations.",
+      "url": "https://cheatsheetseries.owasp.org/",
+      "type": "umbrella",
+      "children": [
+        {
+          "title": "LLM Prompt Injection Prevention",
+          "description": "Practical mitigations for prompt injection attacks — one of the most critical vulnerabilities in LLM-powered applications, with concrete defense patterns.",
+          "url": "https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html",
+          "type": "cheat sheet"
+        },
+        {
+          "title": "AI Agent Security",
+          "description": "Security best practices for autonomous AI agent systems: tool permissions, input validation, human oversight, memory poisoning defenses, and multi-agent communication safeguards.",
+          "url": "https://cheatsheetseries.owasp.org/cheatsheets/AI_Agent_Security_Cheat_Sheet.html",
+          "type": "cheat sheet"
+        },
+        {
+          "title": "Secure AI and ML Model Ops",
+          "description": "Practical MLOps security guidance covering data poisoning, model extraction, adversarial inputs, and prompt injection across development, deployment, and operational phases.",
+          "url": "https://cheatsheetseries.owasp.org/cheatsheets/Secure_AI_Model_Ops_Cheat_Sheet.html",
+          "type": "cheat sheet"
+        }
+      ]
+    },
+    {
+      "name": "OWASP AI Testing Guide",
+      "description": "A structured framework and methodology for security testing AI systems — covering threat modeling, application testing, model testing, infrastructure testing, and data testing.",
+      "url": "https://github.com/OWASP/www-project-ai-testing-guide",
+      "type": "umbrella",
+      "children": [
+        {
+          "title": "Threat Modeling for AI Systems",
+          "description": "Structured process for identifying and quantifying security threats to AI systems, covering prompt injection, model extraction, and other ML-specific attack paths using architectural threat modeling.",
+          "url": "https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/2.0_Threat_Modeling_for_AI_Systems.md",
+          "type": "guide"
+        },
+        {
+          "title": "Identify AI Threats",
+          "description": "Architectural scoped threat modeling approach for AI-enabled applications near production, structured around Google's Secure AI Framework (SAIF) components for holistic risk-driven vulnerability mapping.",
+          "url": "https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/2.1_Identify_AI_Threats.md",
+          "type": "guide"
+        },
+        {
+          "title": "AI Testing Guide Framework",
+          "description": "The unified testing framework bridging traditional cybersecurity, MLOps testing, and Responsible AI assessments across four pillars: application, model, infrastructure, and data testing.",
+          "url": "https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/3.0_OWASP_AI_Testing_Guide_Framework.md",
+          "type": "guide"
+        },
+        {
+          "title": "AI Application Testing",
+          "description": "Security and trust testing for AI system interactions with users and external data sources — covering prompt injection, sensitive data leaks, unsafe outputs, agentic misbehavior, and model extraction.",
+          "url": "https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/3.1_AI_Application_Testing.md",
+          "type": "guide"
+        },
+        {
+          "title": "AI Model Testing",
+          "description": "Testing intrinsic model properties under adversarial conditions — detecting susceptibility to evasion attacks, data poisoning, privacy leaks, and misalignment independent of deployment context.",
+          "url": "https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/3.2_AI_Model_Testing.md",
+          "type": "guide"
+        },
+        {
+          "title": "AI Infrastructure Testing",
+          "description": "Security testing of AI deployment infrastructure — model supply chains, resource management, boundary controls, fine-tuning environments, and prevention of unauthorized model access or misuse.",
+          "url": "https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/3.3_AI_Infrastructure_Testing.md",
+          "type": "guide"
+        },
+        {
+          "title": "AI Data Testing",
+          "description": "Validation and protection of data across the AI lifecycle — training datasets, inference inputs, and runtime interactions — covering privacy, dataset diversity, compliance, and harmful content prevention.",
+          "url": "https://github.com/OWASP/www-project-ai-testing-guide/blob/main/Document/content/3.4_AI_Data_Testing.md",
+          "type": "guide"
+        }
+      ]
+    },
+    {
+      "name": "OWASP AIMA",
+      "description": "The AI Maturity Assessment framework — helping organizations evaluate and improve their AI practices across five domains: Strategy, Design, Implementation, Operations, and Governance.",
+      "url": "https://owasp.org/www-project-ai-maturity-assessment/",
+      "type": "umbrella",
+      "children": [
+        {
+          "title": "Strategy Domain",
+          "description": "Maturity assessment for aligning AI systems and initiatives with organizational objectives, risk appetite, and long-term direction.",
+          "url": "https://owasp.org/www-project-ai-maturity-assessment/",
+          "type": "standard"
+        },
+        {
+          "title": "Design Domain",
+          "description": "Maturity assessment for responsible AI system architecture — covering safety, fairness, explainability, and security requirements at the design stage.",
+          "url": "https://owasp.org/www-project-ai-maturity-assessment/",
+          "type": "standard"
+        },
+        {
+          "title": "Implementation Domain",
+          "description": "Maturity assessment for building and deploying AI solutions — covering secure development practices, data pipelines, model training, and validation processes.",
+          "url": "https://owasp.org/www-project-ai-maturity-assessment/",
+          "type": "standard"
+        },
+        {
+          "title": "Operations Domain",
+          "description": "Maturity assessment for managing live AI systems — covering monitoring, incident response, drift detection, and continuous improvement in production environments.",
+          "url": "https://owasp.org/www-project-ai-maturity-assessment/",
+          "type": "standard"
+        },
+        {
+          "title": "Governance Domain",
+          "description": "Maturity assessment for AI oversight, accountability, and compliance — integrating OWASP SAMM, ISO/IEC standards, and cross-disciplinary governance frameworks.",
+          "url": "https://owasp.org/www-project-ai-maturity-assessment/",
+          "type": "standard"
+        },
+        {
+          "title": "AIMA Assessment Toolkit v1.0",
+          "description": "Practical Excel-based toolkit for conducting the AI Maturity Assessment, providing structured scoring across all five domains with actionable maturity roadmap guidance.",
+          "url": "https://owasp.org/www-project-ai-maturity-assessment/",
+          "type": "tool"
+        }
+      ]
+    }
+  ]
+}

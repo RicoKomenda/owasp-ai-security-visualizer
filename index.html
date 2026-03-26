@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OWASP AI Security Visualizer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-brand">
+        <div class="header-titles">
+          <h1>OWASP AI Security Landscape</h1>
+          <p class="header-subtitle">Interactive visualization of OWASP AI & Machine Learning security resources</p>
+        </div>
+      </div>
+      <div class="header-controls">
+        <!-- Search -->
+        <div class="search-wrapper">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <input type="text" id="search-input" placeholder="Search resources…" autocomplete="off" />
+          <button id="search-clear" class="search-clear" aria-label="Clear search">✕</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Filter bar -->
+    <div class="filter-bar">
+      <span class="filter-label">Filter by type:</span>
+      <div class="filter-chips" id="filter-chips">
+        <button class="chip active" data-type="all">All</button>
+        <button class="chip" data-type="guide">Guide</button>
+        <button class="chip" data-type="standard">Standard</button>
+        <button class="chip" data-type="cheat sheet">Cheat Sheet</button>
+        <button class="chip" data-type="tool">Tool</button>
+      </div>
+      <div class="legend" id="legend"></div>
+    </div>
+  </header>
+
+  <!-- Main layout -->
+  <main class="layout">
+
+    <!-- Graph canvas -->
+    <div class="graph-panel" id="graph-panel">
+      <svg id="graph-svg"></svg>
+      <div class="graph-hint">
+        <span>Scroll to zoom · Drag to pan · Click node to explore</span>
+      </div>
+      <!-- Loading state -->
+      <div class="loading" id="loading">
+        <div class="loading-spinner"></div>
+        <span>Loading resources…</span>
+      </div>
+    </div>
+
+    <!-- Detail sidebar -->
+    <aside class="detail-panel" id="detail-panel" aria-hidden="true">
+      <button class="detail-close" id="detail-close" aria-label="Close panel">✕</button>
+
+      <div class="detail-type-badge" id="detail-type-badge"></div>
+      <h2 class="detail-title" id="detail-title">Select a node</h2>
+      <p class="detail-description" id="detail-description">
+        Click any node in the graph to see its details here.
+      </p>
+
+      <div class="detail-meta" id="detail-meta"></div>
+
+      <a href="#" class="detail-link" id="detail-link" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+          <polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+        </svg>
+        Open Resource
+      </a>
+
+      <!-- Children list (shown for umbrella nodes) -->
+      <div class="detail-children" id="detail-children"></div>
+    </aside>
+  </main>
+
+  <!-- Tooltip -->
+  <div class="tooltip" id="tooltip" role="tooltip"></div>
+
+  <!-- D3.js (local copy for offline/GitHub Pages use) -->
+  <script src="d3.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
