@@ -37,6 +37,12 @@
               "description": "Quarterly peer-reviewed map of the agentic AI security vendor ecosystem, covering the full DevOps-SecOps intersection and mapping solutions to agentic threats and mitigations.",
               "url": "https://genai.owasp.org/resource/ai-security-solutions-landscape-for-agentic-ai-q2-2026/",
               "type": "guide"
+            },
+            {
+              "title": "FinBot CTF",
+              "description": "A Capture The Flag challenge simulating a financial AI assistant to practice LLM security attack and defense techniques.",
+              "url": "https://github.com/GenAI-Security-Project/finbot-ctf",
+              "type": "tool"
             }
           ]
         },
