@@ -121,6 +121,12 @@
               "description": "Security framework for safely deploying external MCP servers, covering tool poisoning, prompt injection, authentication, authorization, and least-privilege governance workflows.",
               "url": "https://genai.owasp.org/resource/cheatsheet-a-practical-guide-for-securely-using-third-party-mcp-servers-1-0/",
               "type": "cheat sheet"
+            },
+            {
+              "title": "FinBot CTF",
+              "description": "A Capture The Flag challenge simulating a financial AI assistant to practice LLM security attack and defense techniques.",
+              "url": "https://github.com/GenAI-Security-Project/finbot-ctf",
+              "type": "ctf"
             }
           ]
         },
