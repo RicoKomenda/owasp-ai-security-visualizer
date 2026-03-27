@@ -439,6 +439,43 @@
           "type": "tool"
         }
       ]
+    },
+    {
+      "name": "Other AI-Related Projects",
+      "description": "Additional OWASP projects relevant to AI and machine learning security, covering identities, data security, agent skills, and intentionally vulnerable learning environments.",
+      "type": "umbrella",
+      "children": [
+        {
+          "title": "Non-Human Identities Top 10",
+          "description": "A comprehensive list of the most pressing security risks posed by non-human identities such as service accounts and application credentials throughout the development lifecycle.",
+          "url": "https://owasp.org/www-project-non-human-identities-top-10/",
+          "type": "standard"
+        },
+        {
+          "title": "Agentic Skills Top 10",
+          "description": "Documents the ten most critical security risks in AI agent skills across platforms like Claude Code and Cursor, addressing vulnerabilities in the behavioral execution layer that enables autonomous agents to access resources and orchestrate multi-step workflows.",
+          "url": "https://owasp.org/www-project-agentic-skills-top-10/",
+          "type": "standard"
+        },
+        {
+          "title": "Data Security Top 10",
+          "description": "Identifies the most common and impactful data security vulnerabilities related to storing and transmitting sensitive information, with techniques to mitigate them.",
+          "url": "https://owasp.org/www-project-data-security-top-10/",
+          "type": "standard"
+        },
+        {
+          "title": "Machine Learning Security Top 10",
+          "description": "An overview of the top 10 security issues affecting machine learning systems, covering input manipulation, data poisoning, model theft, and other adversarial and non-adversarial threats.",
+          "url": "https://owasp.org/www-project-machine-learning-security-top-10/",
+          "type": "standard"
+        },
+        {
+          "title": "PromptMe",
+          "description": "An intentionally vulnerable LLM-based Capture The Flag application designed to educate security professionals about the OWASP Top 10 for LLMs through hands-on exploitation of real-world attack vectors.",
+          "url": "https://owasp.org/www-project-promptme/",
+          "type": "tool"
+        }
+      ]
     }
   ]
 }
