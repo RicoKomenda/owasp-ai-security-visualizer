@@ -4,19 +4,6 @@ An interactive force-directed graph visualizing the OWASP AI and machine learnin
 
 **Live site:** [https://ricokomenda.github.io/owasp-ai-security-visualizer](https://ricokomenda.github.io/owasp-ai-security-visualizer)
 
-## What it covers
-
-The visualizer maps resources across the major OWASP AI security projects:
-
-- **OWASP Generative AI** (with sub-initiatives: Agentic Security, Red Teaming, Secure Adoption, Data Security, Threat Intelligence, LLM Resources)
-- **OWASP AI Exchange**
-- **OWASP AISVS** (all chapters)
-- **OWASP Cheat Sheet Series** (AI-specific sheets)
-- **OWASP AI Testing Guide**
-- **OWASP AIMA** (AI Maturity Assessment)
-- **OWASP AIVSS** (AI Vulnerability Scoring System)
-- **Other AI-Related Projects** (NHI Top 10, Agentic Skills Top 10, ML Security Top 10, and more)
-
 ## Tech stack
 
 - [D3.js v7](https://d3js.org/) force-directed graph (bundled locally, no CDN dependency)
