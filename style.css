@@ -90,6 +90,26 @@ html, body {
   margin-top: 2px;
 }
 
+/* GitHub link */
+.github-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  transition: color 0.15s, border-color 0.15s;
+  flex-shrink: 0;
+}
+.github-link:hover {
+  color: var(--text-primary);
+  border-color: var(--text-secondary);
+}
+
 /* Search */
 .search-wrapper {
   position: relative;
