@@ -343,6 +343,12 @@
           "description": "Practical MLOps security guidance covering data poisoning, model extraction, adversarial inputs, and prompt injection across development, deployment, and operational phases.",
           "url": "https://cheatsheetseries.owasp.org/cheatsheets/Secure_AI_Model_Ops_Cheat_Sheet.html",
           "type": "cheat sheet"
+        },
+        {
+          "title": "MCP Security",
+          "description": "Security guidance for implementing and using Model Context Protocol (MCP) servers, covering authentication, authorization, input validation, tool poisoning prevention, and safe integration patterns.",
+          "url": "https://cheatsheetseries.owasp.org/cheatsheets/MCP_Security_Cheat_Sheet.html",
+          "type": "cheat sheet"
         }
       ]
     },
