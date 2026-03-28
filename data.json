@@ -482,6 +482,44 @@
           "type": "tool"
         }
       ]
+    },
+    {
+      "name": "OWASP AIVSS",
+      "description": "The OWASP AI Vulnerability Scoring System: a standardized, quantifiable methodology to identify, assess, and mitigate vulnerabilities in AI systems, starting with agentic AI and expanding to all AI types.",
+      "url": "https://aivss.owasp.org/",
+      "type": "umbrella",
+      "children": [
+        {
+          "title": "AIVSS Scoring System v0.8",
+          "description": "Latest release of the AIVSS scoring methodology with refined risk categories and assessment guidelines for agentic AI architectures.",
+          "url": "https://aivss.owasp.org/assets/publications/AIVSS%20Scoring%20System%20For%20OWASP%20Agentic%20AI%20Core%20Security%20Risks%20v0.8.pdf",
+          "type": "standard"
+        },
+        {
+          "title": "AIVSS Calculator",
+          "description": "Interactive tool to calculate AI vulnerability scores, understand security impacts, and generate detailed assessment reports based on the AIVSS methodology.",
+          "url": "https://aivss.parthsohaney.online/",
+          "type": "tool"
+        },
+        {
+          "title": "SSVC Calculator",
+          "description": "Decision tree-based vulnerability prioritization calculator applying the Stakeholder-Specific Vulnerability Categorization (SSVC) approach to AI security assessments.",
+          "url": "https://aivss.owasp.org/ssvc.html",
+          "type": "tool"
+        },
+        {
+          "title": "AIUC-1 x AIVSS Crosswalk",
+          "description": "Interactive dashboard mapping AIUC-1 principles to AIVSS Core Risks, enabling risk quantification across the AI use case and vulnerability scoring frameworks.",
+          "url": "https://aivss.owasp.org/aiuc-aivss-crosswalk",
+          "type": "tool"
+        },
+        {
+          "title": "AIVSS GitHub Repository",
+          "description": "Source code, documentation, and contribution guidelines for the OWASP AI Vulnerability Scoring System project.",
+          "url": "https://github.com/OWASP/www-project-artificial-intelligence-vulnerability-scoring-system",
+          "type": "tool"
+        }
+      ]
     }
   ]
 }
