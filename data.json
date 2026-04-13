@@ -105,10 +105,10 @@
               "type": "guide"
             },
             {
-              "title": "AI Security Solutions Landscape for AI and Agentic Red Teaming Q2 2026",
-              "description": "Comprehensive overview of security solutions for conducting red teaming activities on AI and agentic systems, serving as a practical reference for security professionals evaluating tools and approaches.",
-              "url": "https://genai.owasp.org/resource/ai-security-solutions-landscape-for-ai-and-agentic-red-teaming-q2-2026/",
-              "type": "guide"
+              "title": "AI Security Solutions Landscape (LLM)",
+              "description": "Vendor-agnostic overview of the security tooling ecosystem for LLM and generative AI applications across the full model lifecycle.",
+              "url": "https://genai.owasp.org/resource/llm-and-generative-ai-security-solutions-landscape/",
+              "type": "tool"
             },
             {
               "title": "AIBOM Generator",
