@@ -63,6 +63,12 @@
               "description": "Practical guide for organizations assessing vendors offering AI red teaming services or automated testing tools — covering green flags, red flags, threat models, evaluation rigor, tooling quality, and governance considerations.",
               "url": "https://genai.owasp.org/resource/owasp-vendor-evaluation-criteria-for-ai-red-teaming-providers-tooling-v1-0/",
               "type": "guide"
+            },
+            {
+              "title": "AI Security Solutions Landscape for AI and Agentic Red Teaming Q2 2026",
+              "description": "Comprehensive overview of security solutions for conducting red teaming on AI and agentic systems, serving as a practical reference for security professionals evaluating tools and approaches.",
+              "url": "https://genai.owasp.org/resource/ai-security-solutions-landscape-for-ai-and-agentic-red-teaming-q2-2026/",
+              "type": "guide"
             }
           ]
         },
@@ -108,7 +114,7 @@
               "title": "AI Security Solutions Landscape (LLM)",
               "description": "Vendor-agnostic overview of the security tooling ecosystem for LLM and generative AI applications across the full model lifecycle.",
               "url": "https://genai.owasp.org/resource/llm-and-generative-ai-security-solutions-landscape/",
-              "type": "tool"
+              "type": "guide"
             },
             {
               "title": "AIBOM Generator",
